@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		190AB8102318EEAD009A95D2 /* UIViewController+TopMostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190AB80F2318EEAD009A95D2 /* UIViewController+TopMostViewController.swift */; };
-		190AB8122318EFAA009A95D2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 190AB8112318EFAA009A95D2 /* README.md */; };
-		190AB8142318EFD1009A95D2 /* mcv.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 190AB8132318EFD1009A95D2 /* mcv.podspec */; };
 		199510192318DDC8001CA335 /* mcv.h in Headers */ = {isa = PBXBuildFile; fileRef = 199510172318DDC8001CA335 /* mcv.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		199510222318DDE1001CA335 /* KeyboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199510212318DDE1001CA335 /* KeyboardHelper.swift */; };
 		199510272318DFDA001CA335 /* CGSize+Infinity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199510262318DFDA001CA335 /* CGSize+Infinity.swift */; };
@@ -30,7 +28,6 @@
 /* Begin PBXFileReference section */
 		190AB80F2318EEAD009A95D2 /* UIViewController+TopMostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+TopMostViewController.swift"; sourceTree = "<group>"; };
 		190AB8112318EFAA009A95D2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		190AB8132318EFD1009A95D2 /* mcv.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; path = mcv.podspec; sourceTree = "<group>"; };
 		199510142318DDC8001CA335 /* mcv.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = mcv.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		199510172318DDC8001CA335 /* mcv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mcv.h; sourceTree = "<group>"; };
 		199510182318DDC8001CA335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -65,7 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				190AB8112318EFAA009A95D2 /* README.md */,
-				190AB8132318EFD1009A95D2 /* mcv.podspec */,
 				199510162318DDC8001CA335 /* mcv */,
 				199510152318DDC8001CA335 /* Products */,
 			);
@@ -196,8 +192,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				190AB8122318EFAA009A95D2 /* README.md in Resources */,
-				190AB8142318EFD1009A95D2 /* mcv.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
