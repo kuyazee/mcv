@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		190AB8102318EEAD009A95D2 /* UIViewController+TopMostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190AB80F2318EEAD009A95D2 /* UIViewController+TopMostViewController.swift */; };
+		1936B98C2339F554000F946B /* Data+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1936B98B2339F554000F946B /* Data+String.swift */; };
+		1936B98E2339F5D8000F946B /* Collections+Safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1936B98D2339F5D8000F946B /* Collections+Safe.swift */; };
 		199510192318DDC8001CA335 /* mcv.h in Headers */ = {isa = PBXBuildFile; fileRef = 199510172318DDC8001CA335 /* mcv.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		199510222318DDE1001CA335 /* KeyboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199510212318DDE1001CA335 /* KeyboardHelper.swift */; };
 		199510272318DFDA001CA335 /* CGSize+Infinity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199510262318DFDA001CA335 /* CGSize+Infinity.swift */; };
@@ -28,6 +30,8 @@
 /* Begin PBXFileReference section */
 		190AB80F2318EEAD009A95D2 /* UIViewController+TopMostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+TopMostViewController.swift"; sourceTree = "<group>"; };
 		190AB8112318EFAA009A95D2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1936B98B2339F554000F946B /* Data+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+String.swift"; sourceTree = "<group>"; };
+		1936B98D2339F5D8000F946B /* Collections+Safe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collections+Safe.swift"; sourceTree = "<group>"; };
 		199510142318DDC8001CA335 /* mcv.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = mcv.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		199510172318DDC8001CA335 /* mcv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mcv.h; sourceTree = "<group>"; };
 		199510182318DDC8001CA335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,6 +106,8 @@
 				199510392318E1A9001CA335 /* UIView+KeyboardDismiss.swift */,
 				190AB80F2318EEAD009A95D2 /* UIViewController+TopMostViewController.swift */,
 				199510402318E23C001CA335 /* UserDefaults+Archived.swift */,
+				1936B98B2339F554000F946B /* Data+String.swift */,
+				1936B98D2339F5D8000F946B /* Collections+Safe.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -210,8 +216,10 @@
 				199510312318E0B4001CA335 /* UITextField+EZLeftView.swift in Sources */,
 				199510382318E183001CA335 /* UIApplication+TopMostViewController.swift in Sources */,
 				1995102F2318E0A2001CA335 /* UIEdgeInsets.swift in Sources */,
+				1936B98C2339F554000F946B /* Data+String.swift in Sources */,
 				1995102D2318E044001CA335 /* UIView+BindFrame.swift in Sources */,
 				1995102B2318E025001CA335 /* UIView+IBInspectable.swift in Sources */,
+				1936B98E2339F5D8000F946B /* Collections+Safe.swift in Sources */,
 				190AB8102318EEAD009A95D2 /* UIViewController+TopMostViewController.swift in Sources */,
 				1995103A2318E1A9001CA335 /* UIView+KeyboardDismiss.swift in Sources */,
 				199510332318E0C9001CA335 /* String.swift in Sources */,

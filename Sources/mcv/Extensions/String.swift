@@ -36,5 +36,13 @@ public extension String {
     func containsCharacters(from characterSet: CharacterSet) -> Bool {
         return self.rangeOfCharacter(from: characterSet) != nil
     }
+    
+    var isValidEmail: Bool {
+        if self.containsWhiteSpaces {
+            return false
+        }
+
+        return self.isValidForRegex("[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}")
+    }
 }
 

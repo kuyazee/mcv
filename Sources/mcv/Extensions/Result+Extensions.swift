@@ -15,6 +15,7 @@ public extension Result where Success == Void {
 }
 
 public extension Result {
+    /// Returns the `Success` if it has a value
     var result: Success? {
         switch self {
         case .failure:
@@ -24,6 +25,7 @@ public extension Result {
         }
     }
     
+    /// Returns the `Failure` if it has a value
     var error: Failure? {
         switch self {
         case .failure(let error):
@@ -33,10 +35,12 @@ public extension Result {
         }
     }
     
+    /// Returns `true` if the `Result` is a success
     var isSuccess: Bool {
         return self.result != nil
     }
     
+    /// Returns `true` if the `Result` is a failure
     var isFailure: Bool {
         return !self.isSuccess
     }
