@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name          = "mcv"
-  spec.version       = "0.0.1"
+  spec.version       = "0.0.2"
   spec.swift_version = '5.1'
   spec.summary       = "A short description of mcv."
   spec.description   = <<-DESC
